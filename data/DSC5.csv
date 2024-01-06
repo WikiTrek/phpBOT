@@ -1,0 +1,11 @@
+0-Numero P178,1-Produzione P1,2-Titolo,3-Q,4-Prec,5-Succ,6-Writer 1,7-Writer 2,8-Create,9-CreatePage
+1,501,Red Directive,Q12377,Q11098,Q12378,Michelle Paradise,,Episodio|Red Directive|Q10315||,"php edit.php -s ""Pagina creata"" -u Lucamauri Red_Directive < episodetemplate.wikitext"
+2,502,Under the Twin Moons,Q12378,Q12377,Q12379,Alan McElroy,,Episodio|Under the Twin Moons|Q10315||,"php edit.php -s ""Pagina creata"" -u Lucamauri Under_the_Twin_Moons < episodetemplate.wikitext"
+3,503,Jinaal,Q12379,Q12378,Q12380,Kyle Jarrow,Lauren Wilkinson,Episodio|Jinaal|Q10315||,"php edit.php -s ""Pagina creata"" -u Lucamauri Jinaal < episodetemplate.wikitext"
+4,504,Face the Strange,Q12380,Q12379,Q12381,Sean Cochran,,Episodio|Face the Strange|Q10315||,"php edit.php -s ""Pagina creata"" -u Lucamauri Face_the_Strange < episodetemplate.wikitext"
+5,505,Mirrors,Q12381,Q12380,Q12382,Johanna Lee,Carlos Cisco,Episodio|Mirrors|Q10315||,"php edit.php -s ""Pagina creata"" -u Lucamauri Mirrors < episodetemplate.wikitext"
+6,506,Whistlespeak,Q12382,Q12381,Q12383,Kenneth Lin,Brandon A. Schultz,Episodio|Whistlespeak|Q10315||,"php edit.php -s ""Pagina creata"" -u Lucamauri Whistlespeak < episodetemplate.wikitext"
+7,507,Erigah,Q12383,Q12382,Q12384,M. Raven Metzner,,Episodio|Erigah|Q10315||,"php edit.php -s ""Pagina creata"" -u Lucamauri Erigah < episodetemplate.wikitext"
+8,508,Labyrinths,Q12384,Q12383,Q12385,Lauren Wilkinson,Eric J. Robbins,Episodio|Labyrinths|Q10315||,"php edit.php -s ""Pagina creata"" -u Lucamauri Labyrinths < episodetemplate.wikitext"
+9,509,Lagrange Point,Q12385,Q12384,Q12386,Sean Cochran,Ari Friedman,Episodio|Lagrange Point|Q10315||,"php edit.php -s ""Pagina creata"" -u Lucamauri Lagrange_Point < episodetemplate.wikitext"
+10,510,"Life, Itself",Q12386,Q12385,,Kyle Jarrow,Michelle Paradise,"Episodio|Life, Itself|Q10315||","php edit.php -s ""Pagina creata"" -u Lucamauri Life,_Itself < episodetemplate.wikitext"
