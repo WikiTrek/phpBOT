@@ -281,7 +281,7 @@ First Flight,Il primo volo,,Q3138,2,50,50,14 maggio 2003,2003-05-14,Star Trek: E
 Bounty,La taglia,,Q1337,2,51,51,14 maggio 2003,2003-05-14,Star Trek: Enterprise,Q8526,25,Bounty,Q861686,Bounty (episode),Kopfgeld (Episode),,225,KO
 The Expanse,Attacco alla Terra,,Q9127,2,52,52,21 maggio 2003,2003-05-21,Star Trek: Enterprise,Q8526,26,The Expanse,Q1027348,The Expanse (episode),Die Ausdehnung,,226,KO
 The Xindi,Gli Xindi,,Q9294,3,53,53,10 settembre 2003,2003-09-10,Star Trek: Enterprise,Q8526,1,The Xindi,Q1185745,The Xindi (episode),Die Xindi,,301,KO
-Anomaly,L'anomalia,,Q10262,3,54,54,17 settembre 2003,2003-09-17,Star Trek: Enterprise,Q8526,2,Anomaly,Q2153354,Anomaly (episode),Anomalie (Episode),,302,KO
+Anomaly,L'anomalia,,Q10262,3,54,54,17 settembre 2003,2003-09-17,Star Trek: Enterprise,Q8526,2,Anomaly,Q2153354,Anomaly (ENT) (episode),Anomalie (Episode),,302,KO
 Extinction,Estinzione,,Q3034,3,55,55,24 settembre 2003,2003-09-24,Star Trek: Enterprise,Q8526,3,Extinction,Q5230255,Extinction (episode),Transformation,,303,KO
 Rajiin (ent056),Rajiin,,Q7411,3,56,56,1 ottobre 2003,2003-10-01,Star Trek: Enterprise,Q8526,4,Rajiin,Q2528593,Rajiin (episode),Rajiin (Episode),Rajiin (episodio),304,KO
 Impulse,Effetti deleteri,,Q3917,3,57,57,8 ottobre 2003,2003-10-08,Star Trek: Enterprise,Q8526,5,Impulse,Q2743075,Impulse (episode),Impulsiv,,305,KO
@@ -342,7 +342,7 @@ We'll Always Have Tom Paris,Avremo sempre Tom Paris,,Q10592,2,LD-2003,,26 agosto
 "Mugato, Gumato","Mugato, Gumato",,Q10603,2,LD-2004,,2 settembre 2021,2021-09-02,Star Trek: Lower Decks,Q10317,4,"Mugato, Gumato",Q96868323,"Mugato, Gumato (episode)","Mugato, Gumato",,,KO
 An Embarrassment Of Dooplers,La vergogna dei Doopler,,Q10626,2,LD-2005,,9 settembre 2021,2021-09-09,Star Trek: Lower Decks,Q10317,5,An Embarrassment Of Dooplers,Q96868326,An Embarrassment Of Dooplers (episode),Die Doopler-Verwirrung,,,KO
 The Spy Humongous,La spia tra di noi,,Q17,2,LD-2006,,16 settembre 2021,2021-09-16,Star Trek: Lower Decks,Q10317,6,The Spy Humongous,Q96868330,The Spy Humongous (episode),"Der große, braune Spion",,,KO
-Where Pleasant Fountains Lie,Il pianeta delle piacevoli fontane,,Q10670,2,LD-2007,,23 settembre 2021,2021-09-23,Star Trek: Lower Decks,Q10317,7,Where Pleasant Fountains Lie,Q96868334,Where Pleasant Fountains Lie (episode),Wo Die Lust’Gen Quellen Liegen,,,KO
+Where Pleasant Fountains Lie,Il pianeta delle piacevoli fontane,,Q10670,2,LD-2007,,23 settembre 2021,2021-09-23,Star Trek: Lower Decks,Q10317,7,Where Pleasant Fountains Lie,Q96868334,Where Pleasant Fountains Lie (episode),Wo die lust'gen Quellen liegen,,,KO
 "I, Excretus","Io, Excretus",,Q10671,2,LD-2008,,30 settembre 2021,2021-09-30,Star Trek: Lower Decks,Q10317,8,"I, Excretus",Q96868338,"I, Excretus (episode)","Ich, Excretus",,,KO
 Wej Duj,wej Duj,,Q10678,2,LD-2009,,7 ottobre 2021,2021-10-07,Star Trek: Lower Decks,Q10317,9,Wej Duj,Q96868343,Wej Duj (episode),Wej Duj,,,KO
 First First Contact,Primo Primo Contatto,,Q10681,2,LD-2010,,14 ottobre 2021,2021-10-14,Star Trek: Lower Decks,Q10317,10,First First Contact,Q96868346,First First Contact (episode),Erster Erster Kontakt,,,KO
@@ -489,13 +489,13 @@ Where No One Has Gone Before,Dove nessuno è mai giunto prima,,Q10026,1,106,6,26
 Lonely Among Us,Solo in mezzo a noi,Die geheimnisvolle Kraft (La forza misteriosa),Q5501,1,108,7,2 novembre 1987,1987-11-02,Star Trek: The Next Generation,Q10690,7,Lonely Among Us,Q3231795,Lonely Among Us (episode),Die geheimnisvolle Kraft,,108,
 Justice,Il giudizio,Das Gesetz von Edo (La legge degli Edo),Q4709,1,109,8,9 novembre 1987,1987-11-09,Star Trek: The Next Generation,Q10690,8,Justice,Q3436313,Justice (episode),Das Gesetz der Edo,,109,
 The Battle,La battaglia,Die Schlacht von Maxia (La battaglia di Maxia),Q9065,1,110,9,16 novembre 1987,1987-11-16,Star Trek: The Next Generation,Q10690,9,The Battle,Q785059,The Battle (episode),Die Schlacht von Maxia,,110,
-Hide And Q,Il ritorno di Q,Rikers Versuchung (La tentazione di Riker),Q3778,1,111,10,23 novembre 1987,1987-11-23,Star Trek: The Next Generation,Q10690,10,Hide And Q,Q1102231,Hide and Q (episode),Rikers Versuchung,,111,
+Hide And Q,Il ritorno di Q,Rikers Versuchung (La tentazione di Riker),Q3778,1,111,10,23 novembre 1987,1987-11-23,Star Trek: The Next Generation,Q10690,10,Hide And Q,Q1102231,Hide And Q (episode),Rikers Versuchung,,111,
 Haven,Haven,Die Frau seiner Träume (La donna dei suoi sogni),Q3704,1,105,11,30 novembre 1987,1987-11-30,Star Trek: The Next Generation,Q10690,11,Haven,Q3231778,Haven (episode),Die Frau seiner Träume,,105,
 The Big Goodbye,Il grande addio,Der große Abschied (Il grande addio),Q9071,1,113,12,11 gennaio 1988,1988-01-11,Star Trek: The Next Generation,Q10690,12,The Big Goodbye,Q652999,The Big Goodbye (episode),Der große Abschied (Episode),,113,
 Datalore,Datalore,Das Duplikat (Il duplicato),Q2256,1,114,13,18 gennaio 1988,1988-01-18,Star Trek: The Next Generation,Q10690,13,Datalore,Q3435716,Datalore (episode),Das Duplikat,,114,
 Angel One,Missione di soccorso,Planet Angel One (Pianeta Angel One),Q442,1,115,14,25 gennaio 1988,1988-01-25,Star Trek: The Next Generation,Q10690,14,Angel One,Q3231803,Angel One (episode),Planet Angel One,,115,
 11001001,1001001,11001001,Q109,1,116,15,1 febbraio 1988,1988-02-01,Star Trek: The Next Generation,Q10690,15,11001001,Q901789,11001001 (episode),11001001,,116,
-Too Short A Season,Guerra privata,Die Entscheidung des Admirals (La decisione dell'ammiraglio),Q9512,1,112,16,8 febbraio 1988,1988-02-08,Star Trek: The Next Generation,Q10690,16,Too Short A Season,Q3435679,Too Short a Season (episode),Die Entscheidung des Admirals,,112,
+Too Short A Season,Guerra privata,Die Entscheidung des Admirals (La decisione dell'ammiraglio),Q9512,1,112,16,8 febbraio 1988,1988-02-08,Star Trek: The Next Generation,Q10690,16,Too Short A Season,Q3435679,Too Short A Season (episode),Die Entscheidung des Admirals,,112,
 When the Bough Breaks,Il pianeta sterile,Die Sorge der Aldeaner (La preoccupazione degli Aldeani),Q10024,1,118,17,13 febbraio 1988,1988-02-13,Star Trek: The Next Generation,Q10690,17,When the Bough Breaks,Q3445450,When The Bough Breaks (episode),Die Sorge der Aldeaner,,118,
 Home Soil,Progetto Terraforming,Ein Planet wehrt sich (Un pianeta resiste),Q3803,1,117,18,22 febbraio 1988,1988-02-22,Star Trek: The Next Generation,Q10690,18,Home Soil,Q3444454,Home Soil (episode),Ein Planet wehrt sich,,117,
 Coming of Age,L'età della ragione,Prüfungen (Tests),Q1989,1,119,19,14 marzo 1988,1988-03-14,Star Trek: The Next Generation,Q10690,19,Coming of Age,Q3441834,Coming of Age (episode),Prüfungen,,120,KO
@@ -544,7 +544,7 @@ Déjà Q,Déjà Q,Noch einmal Q,Q2429,3,161,61,5 febbraio 1990,1990-02-05,Star T
 A Matter of Perspective,Punti di vista,Riker unter Verdacht,Q114,3,162,62,12 febbraio 1990,1990-02-12,Star Trek: The Next Generation,Q10690,14,A Matter of Perspective,Q4658162,A Matter of Perspective (episode),Riker unter Verdacht,,162,
 Yesterday's Enterprise,L'Enterprise del passato,Die alte Enterprise,Q10167,3,163,63,19 febbraio 1990,1990-02-19,Star Trek: The Next Generation,Q10690,15,Yesterday's Enterprise,Q722470,Yesterday's Enterprise (episode),Die alte Enterprise,,163,
 The Offspring,La figlia di Data,Datas Nachkomme,Q9204,3,164,64,12 marzo 1990,1990-03-12,Star Trek: The Next Generation,Q10690,16,The Offspring,Q3496188,The Offspring (episode),Datas Nachkomme,,164,
-Sins of the Father,I peccati del padre,Die Sünden des Vaters,Q8296,3,165,65,19 marzo 1990,1990-03-19,Star Trek: The Next Generation,Q10690,17,Sins of the Father,Q7525019,Sins of the Father (episode),Die Sünden des Vaters,,165,
+Sins of the Father,I peccati del padre,Die Sünden des Vaters,Q8296,3,165,65,19 marzo 1990,1990-03-19,Star Trek: The Next Generation,Q10690,17,Sins of the Father,Q7525019,Sins of The Father (episode),Die Sünden des Vaters,,165,
 Allegiance,Questione di lealtà,Versuchskaninchen,Q347,3,166,66,26 marzo 1990,1990-03-26,Star Trek: The Next Generation,Q10690,18,Allegiance,Q4731367,Allegiance (episode),Versuchskaninchen (Episode),,166,
 Captain's Holiday,Le vacanze del capitano,Picard macht Urlaub,Q1569,3,167,67,2 aprile 1990,1990-04-02,Star Trek: The Next Generation,Q10690,19,Captain's Holiday,Q5036491,Captain's Holiday (episode),Picard macht Urlaub,,167,
 Tin Man,L'uomo di latta,Der Telepath,Q9408,3,168,68,23 aprile 1990,1990-04-23,Star Trek: The Next Generation,Q10690,20,Tin Man,Q7807780,Tin Man (episode),Der Telepath,,168,
@@ -587,7 +587,7 @@ Silicon Avatar,L'entità di cristallo,Das Recht auf Leben,Q8264,5,204,104,14 ott
 Disaster,Disastro sull'Enterprise,Katastrophe auf der Enterprise,Q2563,5,205,105,21 ottobre 1991,1991-10-21,Star Trek: The Next Generation,Q10690,5,Disaster,Q5281321,Disaster (episode),Katastrophe auf der Enterprise,,205,
 The Game,Il gioco,Gefährliche Spielsucht,Q9142,5,206,106,28 ottobre 1991,1991-10-28,Star Trek: The Next Generation,Q10690,6,The Game,Q7735700,The Game (episode),Gefährliche Spielsucht,,206,
 Unification - Part I,Il segreto di Spock - Prima parte,Wiedervereinigung?,Q9714,5,208,107,4 novembre 1991,1991-11-04,Star Trek: The Next Generation,Q10690,7,Unification I,Q42600249,Unification I (episode),Wiedervereinigung? Teil I,,,KO
-Unification - Part II,Il segreto di Spock - Seconda parte,Wiedervereinigung?,Q9715,5,207,108,11 novembre 1991,1991-11-11,Star Trek: The Next Generation,Q10690,8,Unification III,Q100327260,Unification III (episode),Wiedervereinigung Teil III,,,KO
+Unification - Part II,Il segreto di Spock - Seconda parte,Wiedervereinigung?,Q9715,5,207,108,11 novembre 1991,1991-11-11,Star Trek: The Next Generation,Q10690,8,Unification II,Q42600246,Unification II (episode),Wiedervereinigung? Teil II,,,KO
 A Matter of Time,Uno strano visitatore,Der zeitreisende Historiker,Q115,5,209,109,18 novembre 1991,1991-11-18,Star Trek: The Next Generation,Q10690,9,A Matter of Time,Q4658168,A Matter of Time (episode),Der zeitreisende Historiker,,209,
 New Ground,L'onda soliton,Die Soliton-Welle,Q6663,5,210,110,6 gennaio 1992,1992-01-06,Star Trek: The Next Generation,Q10690,10,New Ground,Q16744120,New Ground (episode),Die Soliton-Welle,,210,
 Hero Worship,Un eroe da imitare,Der Einzige Überlebende (L'unico sopravvissuto),Q3768,5,211,111,27 gennaio 1992,1992-01-27,Star Trek: The Next Generation,Q10690,11,Hero Worship,Q16744121,Hero Worship (episode),Der einzige Überlebende,,211,

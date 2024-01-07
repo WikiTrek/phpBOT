@@ -1,5 +1,5 @@
 <?php
-require 'boz-mw/autoload-with-laser-cannon.php';
+require '../boz-mw/autoload-with-laser-cannon.php';
 
 // load the Italian Wikipedia
 //$wiki = wiki('itwiki');

@@ -1,15 +1,40 @@
 <?php
+/**
+ * This file is part of Wikitrek phpBOT
+ * 
+ * Bulk imports episodes' data from a CSV file into proper fields and
+ * properties in DataTrek.
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU Affero General Public License for more details.
+ * You should have received a copy of the GNU General Public License
+ * along with this program. If not, see <http://www.gnu.org/licenses/>.
+ *
+ * @category   PHP scripts
+ * @package    phpBOT
+ * @author     Luca Mauri (https://github.com/lucamauri) 
+ * @copyright  2023-2024 Luca Mauri
+ * @license    https://www.gnu.org/licenses/gpl-3.0.txt GNU General Public License Version 3
+ * @version    1.0.0
+ * @link       https://github.com/WikiTrek/phpBOT
+ */
 
 use wb\DataValue;
 
-require 'boz-mw/autoload-with-laser-cannon.php';
+require '../boz-mw/autoload-with-laser-cannon.php';
 
 //enable debug mode
 //bozmw_debug();
 
 $datatrek = wiki("datatrek");
 
-config_wizard('configDT.php');
+config_wizard('../private/configDT.php');
 
 // Process all the episodes, one per line in CSV file
 $row = 1;
@@ -44,7 +69,7 @@ if (($handle = fopen("data/Episodi.csv", "r")) !== FALSE) {
             // Iterate through the array using a loop
             foreach ($langData as $column => $langLabel) {
                 if ($CSVdata[$column] != null and $CSVdata[$column] != "" and $CSVdata[$column] != $itemData->getLabelValue($langLabel)) {
-                    print("Label $langLabel: " . $itemData->getLabelValue($langLabel) . "\n");
+                    print("Wrong label $langLabel: " . $itemData->getLabelValue($langLabel) . "\n");
                     $episodeData->setLabelValue($langLabel, $CSVdata[$column]);
                 }
                 //Remove dummy description if existing
@@ -238,4 +263,4 @@ if (($handle = fopen("data/Episodi.csv", "r")) !== FALSE) {
     }
     fclose($handle);
 }
-print("END of run");
+print("============\nEND of run\n============");
