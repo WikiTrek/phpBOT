@@ -1,0 +1,9 @@
+Numero,Produzione,Titolo,Q,Prec,Succ,Create,CreatePage
+1,401,Twovix,Q12134,Q11591,Q12135,Episodio|Twovix|Q10317||,"php edit.php -s ""Pagina creata"" -u Lucamauri Twovix < episodetemplate.wikitext"
+2,402,I Have No Bones Yet I Must Flee,Q12135,Q12134,Q12136,Episodio|I Have No Bones Yet I Must Flee|Q10317||,"php edit.php -s ""Pagina creata"" -u Lucamauri I_Have_No_Bones_Yet_I_Must_Flee < episodetemplate.wikitext"
+3,403,In the Cradle of Vexilon,Q12136,Q12135,Q12137,Episodio|In the Cradle of Vexilon|Q10317||,"php edit.php -s ""Pagina creata"" -u Lucamauri In_the_Cradle_of_Vexilon < episodetemplate.wikitext"
+4,404,"Something Borrowed, Something Green",Q12137,Q12136,Q12138,"Episodio|Something Borrowed, Something Green|Q10317||","php edit.php -s ""Pagina creata"" -u Lucamauri Something_Borrowed,_Something_Green < episodetemplate.wikitext"
+5,405,Empathalogical Fallacies,Q12138,Q12137,Q12139,Episodio|Empathalogical Fallacies|Q10317||,"php edit.php -s ""Pagina creata"" -u Lucamauri Empathalogical_Fallacies < episodetemplate.wikitext"
+6,406,Parth Ferengi's Heart Place,Q12139,Q12138,Q12140,Episodio|Parth Ferengi's Heart Place|Q10317||,"php edit.php -s ""Pagina creata"" -u Lucamauri Parth_Ferengi's_Heart_Place < episodetemplate.wikitext"
+7,407,A Few Badgeys More,Q12140,Q12139,Q12141,Episodio|A Few Badgeys More|Q10317||,"php edit.php -s ""Pagina creata"" -u Lucamauri A_Few_Badgeys_More < episodetemplate.wikitext"
+8,408,Caves,Q12141,Q12140,,Episodio|Caves|Q10317||,"php edit.php -s ""Pagina creata"" -u Lucamauri Caves < episodetemplate.wikitext"

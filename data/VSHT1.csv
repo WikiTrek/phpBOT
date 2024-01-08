@@ -1,0 +1,6 @@
+Numero,Produzione,Titolo,Q,Prec,Succ,Create,CreatePage,OriginalDate
+1,101,Skin a Cat,Q12241,,Q12242,Episodio|Skin a Cat|Q12239||,"php edit.php -s """"pagina creata"""" -u lucamauri Skin_a_Cat < episodetemplate.wikitext",+2023-09-08
+2,102,Holiday Party,Q12242,Q12241,Q12243,Episodio|Holiday Party|Q12239||,"php edit.php -s """"pagina creata"""" -u lucamauri Holiday_Party < episodetemplate.wikitext",+2023-09-13
+3,103,Worst Contact,Q12243,Q12242,Q12244,Episodio|Worst Contact|Q12239||,"php edit.php -s """"pagina creata"""" -u lucamauri Worst_Contact < episodetemplate.wikitext",+2023-09-20
+4,104,"Holograms, All the Way Down",Q12244,Q12243,Q12245,"Episodio|Holograms, All the Way Down|Q12239||","php edit.php -s """"pagina creata"""" -u lucamauri Holograms,_All_the_Way_Down < episodetemplate.wikitext",+2023-09-27
+5,105,"Walk, Don’t Run",Q12245,Q12244,,"Episodio|Walk, Don't Run|Q12239||","php edit.php -s """"pagina creata"""" -u lucamauri Walk,_Don't_Run < episodetemplate.wikitext",+2023-10-04

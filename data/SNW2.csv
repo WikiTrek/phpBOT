@@ -1,0 +1,11 @@
+Numero,Produzione,Titolo,Q,Prec,Succ,Create,CreatePage
+1,201,The Broken Circle,Q11969,Q11373,Q11970,Episodio|The Broken Circle|Q11174||,"php edit.php -s ""Pagina creata"" -u Lucamauri The_Broken_Circle < episodetemplate.wikitext"
+2,202,Ad Astra Per Aspera,Q11970,Q11969,Q11971,Episodio|Ad Astra Per Aspera|Q11174||,"php edit.php -s ""Pagina creata"" -u Lucamauri Ad_Astra_Per_Aspera < episodetemplate.wikitext"
+3,203,Tomorrow and Tomorrow and Tomorrow,Q11971,Q11970,Q11972,Episodio|Tomorrow and Tomorrow and Tomorrow|Q11174||,"php edit.php -s ""Pagina creata"" -u Lucamauri Tomorrow_and_Tomorrow_and_Tomorrow < episodetemplate.wikitext"
+4,204,Among the Lotus Eaters,Q11972,Q11971,Q11973,Episodio|Among the Lotus Eaters|Q11174||,"php edit.php -s ""Pagina creata"" -u Lucamauri Among_the_Lotus_Eaters < episodetemplate.wikitext"
+5,205,Charades,Q11973,Q11972,Q11974,Episodio|Charades|Q11174||,"php edit.php -s ""Pagina creata"" -u Lucamauri Charades < episodetemplate.wikitext"
+6,206,Lost in Translation,Q11974,Q11973,Q11954,Episodio|Lost in Translation|Q11174||,"php edit.php -s ""Pagina creata"" -u Lucamauri Lost_in_Translation < episodetemplate.wikitext"
+7,207,Those Old Scientists,Q11954,Q11974,Q11975,,
+8,208,Under the Cloack of War,Q11975,Q11954,Q11976,Episodio|Under the Cloack of War|Q11174||,"php edit.php -s ""Pagina creata"" -u Lucamauri Under_the_Cloack_of_War < episodetemplate.wikitext"
+9,209,Subspace Rhapsody,Q11976,Q11975,Q11977,Episodio|Subspace Rhapsody|Q11174||,"php edit.php -s ""Pagina creata"" -u Lucamauri Subspace_Rhapsody < episodetemplate.wikitext"
+10,210,Hegemony,Q11977,Q11976,,Episodio|Hegemony|Q11174||,"php edit.php -s ""Pagina creata"" -u Lucamauri Hegemony < episodetemplate.wikitext"

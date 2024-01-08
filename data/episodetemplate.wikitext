@@ -1,0 +1,31 @@
+{{IncipitEpisodio}}
+
+== Trama == 
+
+=== Primo atto ===
+=== Secondo atto ===
+=== Terzo atto ===
+=== Quarto atto ===
+
+== {{Etichetta|Tipo=Sezioni}} ==
+=== {{Etichetta|Tipo=IQE}} ===
+
+=== {{Etichetta|Tipo=Note}} ===
+
+=== {{Etichetta|Tipo=47}} ===
+
+=== {{Etichetta|Tipo=Okudagram}} ===
+
+=== {{Etichetta|Tipo=Blooper}} ===
+
+=== {{Etichetta|Tipo=YATI}} ===
+
+=== {{Etichetta|Tipo=VI}} ===
+
+=== {{Etichetta|Tipo=Continuity}} ===
+
+=== {{Etichetta|Tipo=Citazioni}} ===
+
+=== {{Etichetta|Tipo=Produzione}} ===
+
+{{EpilogoGenerico|True}}
