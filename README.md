@@ -3,9 +3,7 @@ This is a collection of PHP scripts to add and manipulate data on [Wikitrek](htt
 
 ## Badges
 [![GPLv3 License](https://img.shields.io/badge/License-GPLv3-orange.svg)](https://opensource.org/licenses/)
-[![Built with Visual Studio Code](https://img.shields.io/badge/Built_with-VS_Code-007ACC?logo=visualstudiocode)](https://wikitrek.org/wiki/Wikitrek:Progetto)
-
-
+[![Built with Visual Studio Code](https://img.shields.io/badge/Built_with-VS_Code-007ACC?logo=visualstudiocode)](https://code.visualstudio.com/)
 
 ## Installation
 Download this package an place it in the same directory level as the [`boz-mw`](https://github.com/valerio-bozzolan/boz-mw) bot.
