@@ -35,7 +35,7 @@ config_wizard('../private/configDT.php');
 
 // Process all the pages, one per line, in CSV file
 $row = 1;
-if (($handle = fopen("data/HTData.csv", "r")) !== FALSE) {
+if (($handle = fopen("data/HTDataSMW.csv", "r")) !== FALSE) {
     $datatrek->login();
     while (($CSVdata = fgetcsv($handle, 1000, ",")) !== FALSE) {
         //Skip header
@@ -44,10 +44,10 @@ if (($handle = fopen("data/HTData.csv", "r")) !== FALSE) {
             $PageData = $datatrek->createDataModel();
 
             // array is 0-based
-            print("--- =/\= ---\nItem: " . $CSVdata[0] . ",");
+            print("--- =/\= ---\nItem: " . $CSVdata[0] . "\n");
 
             // query the current item
-            $itemData = $datatrek->fetchSingleEntity($CSVdata[3], [
+            $itemData = $datatrek->fetchSingleEntity($CSVdata[1], [
                 'props' => [
                     'descriptions',
                     'labels',
@@ -55,9 +55,10 @@ if (($handle = fopen("data/HTData.csv", "r")) !== FALSE) {
                 ],
             ]);
 
+            // Set label in EN
             if ($CSVdata[7] != null and $CSVdata[7] != "" and $CSVdata[7] != $itemData->getLabelValue('en')) {
-                print("Wrong label $langLabel: " . $itemData->getLabelValue($langLabel) . "\n");
-                $episodeData->setLabelValue('en', $CSVdata[7]);
+                print("Wrong label EN");
+                $itemData->setLabelValue('en', $CSVdata[7]);
             }
 
             // Set P79 (database timestamp) as the proper value with precision "days"
@@ -68,11 +69,11 @@ if (($handle = fopen("data/HTData.csv", "r")) !== FALSE) {
             /**
             * Properties from https://data.wikitrek.org/dt/index.php?title=Special:ListProperties
              * 
-             * HyperTrek Pagina Tag (P81)
-             * HyperTrek istante di importazione (P84)
              * HyperTrek Pagina ID (P85)
              * HyperTrek Sezione ID (P86)
-             */                        
+             * HyperTrek Pagina Tag (P81)
+             * HyperTrek istante di importazione (P84)
+             */
              $qualifiersList = [
                 2 => 'P85',
                 3 => 'P86',
@@ -90,8 +91,10 @@ if (($handle = fopen("data/HTData.csv", "r")) !== FALSE) {
             $hypertrekData->addClaim($statement);
 
             // Set P43 (IMDB ID) as the proper string
-            $statement = new \wb\StatementExternalID("P43", $CSVdata[8]);
-            $hypertrekData->addClaim($statement);
+            if ($CSVdata[8] != null and $CSVdata[8] != "") {
+                $statement = new \wb\StatementExternalID("P43", $CSVdata[8]);
+                $hypertrekData->addClaim($statement);
+            }
             
             // Set P89 (Stardate) as the proper string
             /**
@@ -109,10 +112,10 @@ if (($handle = fopen("data/HTData.csv", "r")) !== FALSE) {
             //Dump for debug purposes
             //var_dump($hypertrekData->get());
 
-            // Set Wikitrek sitelink
+            // Set MA sitelink
             if ($CSVdata[6] != null and $CSVdata[6] != "") {
-                $sitelinks = new \wb\Sitelinks([new \wb\Sitelink("enma", $CSVdata[6])]);
-                $PageData->setSitelinks($sitelinks);
+                $sitelinks = new \wb\Sitelinks([new \wb\Sitelink("enma", urldecode($CSVdata[6]))]);
+                $hypertrekData->setSitelinks($sitelinks);
             }
 
             // this tries to save all your proposed changes in the Wikidata Sandbox
