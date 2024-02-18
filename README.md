@@ -2,9 +2,10 @@
 This is a collection of PHP scripts to add and manipulate data on [Wikitrek](https://www.wikitrek.org) and [Datatrek](https://data.wikitrek.org).
 
 ## Badges
-[![GPLv3 License](https://img.shields.io/badge/License-GPLv3-orange.svg)](https://opensource.org/licenses/)
-[![Built with Visual Studio Code](https://img.shields.io/badge/Built_with-VS_Code-007ACC?logo=visualstudiocode)](https://wikitrek.org/wiki/Wikitrek:Progetto)
-
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/Creative_Commons-BY_SA_4-black?logo=creativecommons)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPLv3-008033?logo=gpl)](https://opensource.org/licenses/)
+[![Built with Visual Studio Code](https://img.shields.io/badge/Built_with-VS_Code-007ACC?logo=visualstudiocode)](https://code.visualstudio.com)
+[![Discuss on StackOverflow](https://img.shields.io/badge/Discuss_on-Stack_Overflow-fe7a16?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/wt-phpBOT?tab=Active)
 
 
 ## Installation
