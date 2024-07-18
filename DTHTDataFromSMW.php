@@ -64,7 +64,7 @@ if (($handle = fopen("data/HTDataSMW.csv", "r")) !== FALSE) {
             // Set P79 (database timestamp) as the proper value with precision "days"
             $statement = new \wb\StatementTime("P79", "+2016-06-19T09:03:36Z", 11);
 
-            // Create an associative array with columns ordinal and sitelink labels
+            // Create an associative array with columns ordinal and properties numbers
             // Iterate through the array using a loop
             /**
             * Properties from https://data.wikitrek.org/dt/index.php?title=Special:ListProperties
