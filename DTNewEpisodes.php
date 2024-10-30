@@ -35,7 +35,7 @@ config_wizard('../private/configDT.php');
 
 // Process all the pages, one per line in CSV file
 $row = 1;
-if (($handle = fopen("data/PRO2EpisodedFR.csv", "r")) !== FALSE) {
+if (($handle = fopen("data/LD5Create.csv", "r")) !== FALSE) {
     $datatrek->login();
     while (($CSVdata = fgetcsv($handle, 1000, ",")) !== FALSE) {
         //Skip header
@@ -57,8 +57,8 @@ if (($handle = fopen("data/PRO2EpisodedFR.csv", "r")) !== FALSE) {
             $sitelinks = new \wb\Sitelinks([new \wb\Sitelink("wikitrek", $CSVdata[0])]);
             $episodeData->setSitelinks($sitelinks);
 
-            // Set P18 (Season) as "2"
-            $statement = new \wb\StatementQuantity("P18", 2, null);
+            // Set P18 (Season) as proper  number
+            $statement = new \wb\StatementQuantity("P18", $CSVdata[8], null);
             $episodeData->addClaim($statement);
 
             // Set P178 (Position) as the proper number
@@ -72,6 +72,8 @@ if (($handle = fopen("data/PRO2EpisodedFR.csv", "r")) !== FALSE) {
             // Set P95 (Original Publication date) to the proper date            
             if ($CSVdata[7] != null and $CSVdata[7] != "") {
                 $statement = new \wb\StatementTime("P95", "+" . $CSVdata[7], 11);
+                $qualifier = new \wb\SnakString("P4", "Paramount+");
+                $statement->addQualifier($qualifier);
                 $episodeData->addClaim($statement);
             }
 
@@ -82,9 +84,11 @@ if (($handle = fopen("data/PRO2EpisodedFR.csv", "r")) !== FALSE) {
             }
 
             // Set P32 (Duration) as the proper quantity
+            if ($CSVdata[9] != null and $CSVdata[9] != "") {
             $statement = new \wb\StatementQuantity("P32", $CSVdata[9], null);
             $episodeData->addClaim($statement);
-            
+            }
+
             // this tries to save all your proposed changes in the Wikidata Sandbox
             // See file DataModel.php for details on the function editEntity
             $previousItem = $episodeData->editEntity([

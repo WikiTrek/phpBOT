@@ -56,6 +56,7 @@ if (($handle = fopen("data/semanticTNG.csv", "r")) !== FALSE) {
                 17 => 'it',
                 /*18 => 'jp',*/
                 19 => 'de',
+                26 => 'pt',
             ];
             // Iterate through the array using a loop
             foreach ($languagesList as $column => $langISO) {
@@ -81,6 +82,17 @@ if (($handle = fopen("data/semanticTNG.csv", "r")) !== FALSE) {
             $qualifier = new \wb\SnakString("P4", "Italia 1");
             $statement->addQualifier($qualifier);
             $episodeData->addClaim($statement);
+
+            /**
+             * Sets the "Script date" (P196) property of the episode data model to the value from the CSV data.
+             * The date is expected to be in the format "YYYY-MM-DD".
+             *
+             * @param string $CSVdata[27] The date value from the CSV data.
+             */
+            if ($CSVdata[27] != null and $CSVdata[27] != "") {
+                $statement = new \wb\StatementTime("P196", "+" . $CSVdata[27], 11);
+                $episodeData->addClaim($statement);
+            }
 
             // Set P193 (DVD number) as the proper string
             if ($CSVdata[5] != null and $CSVdata[5] != "") {
@@ -137,13 +149,13 @@ if (($handle = fopen("data/semanticTNG.csv", "r")) !== FALSE) {
             // See file DataModel.php for details on the function editEntity
             $episodeData->editEntity([
                 'id' => $CSVdata[1],
-                'summary' => "Set HT data from semantic export",
+                'summary' => "Set episode data from semantic export",
                 'bot' => true,
             ]);
         }
         $row++;
         // Fragmet to exit the cycle for a test run
-        if ($row > 11) {
+        if ($row > 300) {
             break;
         }
     }
