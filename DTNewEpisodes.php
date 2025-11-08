@@ -35,7 +35,7 @@ config_wizard('../private/configDT.php');
 
 // Process all the pages, one per line in CSV file
 $row = 1;
-if (($handle = fopen("data/LD5Create.csv", "r")) !== FALSE) {
+if (($handle = fopen("data/SNW3.csv", "r")) !== FALSE) {
     $datatrek->login();
     while (($CSVdata = fgetcsv($handle, 1000, ",")) !== FALSE) {
         //Skip header
@@ -69,9 +69,17 @@ if (($handle = fopen("data/LD5Create.csv", "r")) !== FALSE) {
             $statement = new \wb\StatementString("P1", $CSVdata[5]);
             $episodeData->addClaim($statement);
 
-            // Set P95 (Original Publication date) to the proper date            
+            // Set P95 (Original Publication date) to the proper date
             if ($CSVdata[7] != null and $CSVdata[7] != "") {
                 $statement = new \wb\StatementTime("P95", "+" . $CSVdata[7], 11);
+                $qualifier = new \wb\SnakString("P4", "Paramount+");
+                $statement->addQualifier($qualifier);
+                $episodeData->addClaim($statement);
+            }
+
+            // Set P101 (Publication date in italy) to the proper date 
+            if ($CSVdata[7] != null and $CSVdata[7] != "") {
+                $statement = new \wb\StatementTime("P101", "+" . $CSVdata[7], 11);
                 $qualifier = new \wb\SnakString("P4", "Paramount+");
                 $statement->addQualifier($qualifier);
                 $episodeData->addClaim($statement);
